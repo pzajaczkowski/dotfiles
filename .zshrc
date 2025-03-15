@@ -42,6 +42,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Shell integrations
+export PATH="$HOME/.local/bin:$PATH"
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/atomicBit.omp.json)"

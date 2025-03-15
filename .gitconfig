@@ -1,10 +1,6 @@
 [user]
-	email = to_be_set
 	name = pzajaczkowski
-	signing_key = to_be_set
 [core]
 	editor = micro
-[commit]
-	gpgsign = true
 [init]
 	defaultBranch = main
